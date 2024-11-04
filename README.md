@@ -117,4 +117,4 @@ Write queries to extract key insights based on the following questions.
 ### TOTAL SALES BY PRODUCT
 
 
-
+![IMG_20241104_153608](https://github.com/user-attachments/assets/a2a67193-e1dd-457d-a76f-e508a6179a01)
