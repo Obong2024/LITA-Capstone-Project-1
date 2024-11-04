@@ -20,7 +20,7 @@ I am a data analyst in training with LADIES IN TECH AFRICA INCUBATOR HUB, where 
 
 ### Project Overview 
 ------
-Basically the the project is meant to explore, gather and analyze the sales performance of a retail store to uncover some key insights such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings.
+Basically the project is meant to explore, gather and analyze the sales performance of a retail store to uncover some key insights such as top-selling products, regional performance, and monthly sales trends. Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.The goal is to produce an interactive Power BI dashboard that highlights these findings.
 
 
 ### Project Objectives
@@ -59,3 +59,62 @@ The data sources consist of the following key elements:
 (ii) Total Sales: This refers to total quantity of units of products sold at a specific period across different regions and stores.
 
 (iii) Products: This is simply the classification of products to analyze customer purchasing behavior.
+
+### Used Tools
+---------
+
+
+### Microsoft Excel: [download here](https://www.microsoft.com/en-ng/)
+
+- Pivot Tables: Used for summarizing data and deriving insights related to revenue, units sold, and transaction categories.
+- Formulas and Functions: Essential for calculating performance metrics, calculations, data analysis, and to automate tasks.
+- Data Visualizations (Charts and Graphs): Employed to produce visual representations of trends, comparisons, and critical insights.
+
+### Exploratory Data Analysis (EDA):
+Exploratory Data Analysis (EDA) involves examining the data to address various questions, such as:
+- What is the average sales per product and total revenue by region?
+- Top-selling products, regional performance, and monthly sales trends?
+- Which Region or Product has the lowest number of units sold?
+
+
+### Data Aalysis
+-------
+
+- Activated the pivot table command
+- Created a chart to visualize the sales
+
+2.
+### SQL:
+
+### Used Tools
+---------
+
+
+### My SQL: [download here](https://www.my-sql-enterprise.com/en-ng/)
+
+Write queries to extract key insights based on the following questions.
+
+- retrieve the total sales for each product category.
+
+- find the number of sales transactions in each region.
+
+- find the highest-selling product by total sales value.
+
+- calculate total revenue per product.
+
+- calculate monthly sales totals for the current year.
+
+- find the top 5 customers by total purchase amount.
+
+- calculate the percentage of total sales contributed by each region.
+
+- identify products with no sales in the last quarter.
+
+### DATA VISUALIZATION
+---------
+### PIVOT TABLE SHOWING TOTAL SALES AT DIFFERENT SEGMENTS
+
+### TOTAL SALES BY PRODUCT
+
+
+
