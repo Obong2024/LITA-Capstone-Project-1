@@ -223,12 +223,15 @@ SELECT Region, COUNT(OrderID) AS TotalTransactions
 
 
 
-
-
 ### DATA VISUALIZATION
 ---------
-### PIVOT TABLE SHOWING TOTAL SALES AT DIFFERENT SEGMENTS
+### PIVOT TABLE AND CHARTS SHOWING;
 
+- Sales by Products
+
+- Sales by Region
+
+- Sales per Month
    
 
 
