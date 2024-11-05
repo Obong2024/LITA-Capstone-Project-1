@@ -114,13 +114,11 @@ Write queries to extract key insights based on the following questions.
 ---------
 ### PIVOT TABLE SHOWING TOTAL SALES AT DIFFERENT SEGMENTS
 
-### TOTAL SALES BY PRODUCT
+            
 
 
-                            
+![SALES BY PRODUCT](https://github.com/user-attachments/assets/c3ba897e-ba3b-4785-933c-13d9485d657d)
 
-
-![SALES BY PRODUCT](https://github.com/user-attachments/assets/b1e64867-f4be-401b-860e-d69d517e2b0e)
 
 
 
