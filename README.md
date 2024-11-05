@@ -118,6 +118,7 @@ Write queries to extract key insights based on the following questions.
 
 
 
+![SALES BY PRODUCT](https://github.com/user-attachments/assets/037d622a-edf1-4ebf-8ac9-387dc15b7512)
 
 
 
