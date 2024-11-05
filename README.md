@@ -118,22 +118,22 @@ Write queries to extract key insights based on the following questions.
 
 
 
-![IMG_20241104_161701](https://github.com/user-attachments/assets/45198b76-6495-4722-81bd-01b743629237)
-
-
-
-![IMG_20241104_161731](https://github.com/user-attachments/assets/e2d66791-d004-4c9d-b841-ae5bac4bd84d)
-
-
-
-![IMG_20241104_161810](https://github.com/user-attachments/assets/30fb52f4-5884-49f9-82a8-5ebedb26e08a)
 
 
 
 
 
 
-![IMG_20241104_161810](https://github.com/user-attachments/assets/5a90b108-3710-4e6c-88a5-786327daa280)
+
+
+
+
+
+
+
+
+
+
 
 
 
