@@ -117,6 +117,7 @@ Write queries to extract key insights based on the following questions.
 ### TOTAL SALES BY PRODUCT
 
 
+![SALES BY PRODUCT](https://github.com/user-attachments/assets/2f97278d-2cec-4864-b93e-ecfd6e33042e)                              
 
 
 
@@ -124,13 +125,37 @@ Write queries to extract key insights based on the following questions.
 
 
 
+![SALES BY REGION](https://github.com/user-attachments/assets/4f70866c-47e3-4303-b8f8-4f7befbbfc61)
 
 
 
 
 
+![Average Sales by Product](https://github.com/user-attachments/assets/f870bf34-6735-4a78-af08-ae78051feed1)
 
 
+
+
+
+![SALES PER MONTH](https://github.com/user-attachments/assets/b82dad14-e136-4be8-bfc9-b780739c6059)
+
+
+
+
+
+![Total Revenue By Region](https://github.com/user-attachments/assets/3f11dfe4-8bd5-4190-b727-54737a0b87c4)
+
+
+
+
+
+![Chart_Sales by Product](https://github.com/user-attachments/assets/20c7fe2c-380d-41de-9a7e-997fb510c605)
+
+
+
+
+
+![Chart_Sales b Region](https://github.com/user-attachments/assets/aecfc867-8162-4631-85fe-089bbff276f6)
 
 
 
