@@ -1,8 +1,8 @@
-# LITA-Capstone-Project-Documentation
+# LITA-Capstone-Project-1-Documentation
 
-I am a data analyst in training with LADIES IN TECH AFRICA INCUBATOR HUB, where I am developing expertise in data manipulation, analysis, and visualization. This immersive experience is deepening my understanding of data-driven decision-making, enabling me to uncover significant patterns and insights through practical, project-based learning.
+I am a data analyst in training at LADIES IN TECH AFRICA INCUBATOR HUB, where I am honing my skills in data manipulation, analysis, and visualization. This comprehensive experience is enhancing my understanding of data-driven decision-making, empowering me to uncover valuable patterns and insights through hands-on, project-based learning
 
-### Project 1:  SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
+### Title of Project:  SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
 
 [Project Overview](#project-overview)
 
@@ -20,7 +20,7 @@ I am a data analyst in training with LADIES IN TECH AFRICA INCUBATOR HUB, where 
 
 ### Project Overview 
 ------
-Basically the project is meant to explore, gather and analyze the sales performance of a retail store to uncover some key insights such as top-selling products, regional performance, and monthly sales trends. Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.The goal is to produce an interactive Power BI dashboard that highlights these findings.
+The project focuses on exploring, collecting, and analyzing the sales performance of a retail store to reveal key insights, such as best-selling products, regional performance, and monthly sales trends. Excel formulas will be used to calculate metrics like average sales per product and total revenue by region. The ultimate goal is to create an interactive Power BI dashboard that showcases these findings
 
 
 ### Project Objectives
