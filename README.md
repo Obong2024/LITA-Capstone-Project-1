@@ -244,6 +244,7 @@ SELECT Region, COUNT(OrderID) AS TotalTransactions
 
 
 
+![SALES BY REGION](https://github.com/user-attachments/assets/66f0a5a9-6ea0-4c9b-97e9-e92882bcbfc4)
 
 
 
@@ -254,6 +255,17 @@ SELECT Region, COUNT(OrderID) AS TotalTransactions
 
 
 
+![SALES PER MONTH](https://github.com/user-attachments/assets/ddad8ed8-39ed-42ed-897a-f112bb0b13fa)
+
+
+
+
+
+
+
+
+
+![Chart_Sales by Product](https://github.com/user-attachments/assets/7f5d3e66-2ef1-48a3-9111-483adf223450)
 
 
 
@@ -264,16 +276,7 @@ SELECT Region, COUNT(OrderID) AS TotalTransactions
 
 
 
-
-
-
-
-
-
-
-
-
-
+![Chart_Sales b Region](https://github.com/user-attachments/assets/871d9b8b-5c7f-4a38-a12f-fa479eea7708)
 
 
 
