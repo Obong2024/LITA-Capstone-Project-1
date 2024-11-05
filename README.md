@@ -92,7 +92,7 @@ Exploratory Data Analysis (EDA) involves examining the data to address various q
 
 ### My SQL: [download here](https://www.my-sql-enterprise.com/en-ng/)
 
-Write queries to extract key insights based on the following questions.
+Here I am required to Write queries to extract key insights based on the following questions.
 
 - retrieve the total sales for each product category.
 
@@ -110,15 +110,133 @@ Write queries to extract key insights based on the following questions.
 
 - identify products with no sales in the last quarter.
 
+### Query 1. Write a query to retrieve the total sales for each product category.
+  
+```SQL
+  SELECT Product, SUM(Quantity) AS TotalSales
+
+   FROM SalesData$
+
+   GROUP BY Product;
+  ```
+
+### Query 2. Write a query to find the number of sales transactions in each region.
+
+```
+SELECT Region, COUNT(OrderID) AS TotalTransactions
+
+   FROM SalesData$
+
+   GROUP BY Region;
+ ```
+
+### Query 3. Write a query to Find the highest-selling product by total sales value:
+
+```
+   SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSalesValue
+
+    FROM SalesData$
+
+    GROUP BY Product
+
+   ORDER BY TotalSalesValue DESC;
+```
+
+### Query 4. Write a query to Calculate total revenue per product: 
+
+```
+   SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
+
+   FROM SalesData$
+
+   GROUP BY Product;
+```
+
+### Query 5. Write a query to Calculate monthly sales totals for the current year:
+
+```
+   SELECT MONTH(OrderDate) AS Month, SUM(Quantity * UnitPrice) AS MonthlySalesTotal
+
+   FROM SalesData$
+
+   WHERE YEAR(OrderDate) = YEAR(GETDATE())
+
+   GROUP BY MONTH(OrderDate)
+
+   ORDER BY Month;
+```
+
+### Query 6. Write a query to Find the top 5 customers by total purchase amount:
+
+```
+   SELECT TOP 5 [Customer Id], SUM(Quantity * UnitPrice) AS TotalPurchaseAmount
+
+   FROM SalesData$
+
+   GROUP BY [Customer Id]
+
+   ORDER BY TotalPurchaseAmount DESC;
+```
+
+### Query 7. Write a query to Calculate the percentage of total sales contributed by each region:
+
+```
+   WITH RegionSales AS (
+
+       SELECT Region, SUM(Quantity * UnitPrice) AS RegionalSales
+
+       FROM SalesData$
+
+       GROUP BY Region
+
+   )
+
+   SELECT 
+
+       Region,
+
+       RegionalSales,
+
+       CAST(RegionalSales * 100.0 / SUM(RegionalSales) OVER () AS DECIMAL(5, 2)) AS SalesPercentage
+
+   FROM RegionSales;
+   ```
+
+### Query 8. Write a queryy to Identify products with no sales in the last quarter:
+
+```
+   SELECT DISTINCT Product
+
+   FROM SalesData$
+
+   WHERE Product NOT IN (
+
+       SELECT Product
+
+       FROM SalesData$
+
+       WHERE OrderDate >= DATEADD(quarter, -1, GETDATE())
+
+   );
+```
+
+
+
+
+
+
 ### DATA VISUALIZATION
 ---------
 ### PIVOT TABLE SHOWING TOTAL SALES AT DIFFERENT SEGMENTS
 
-            
+   
 
 
 
-![SALES BY PRODUCT](https://github.com/user-attachments/assets/037d622a-edf1-4ebf-8ac9-387dc15b7512)
+ ![SALES BY PRODUCT](https://github.com/user-attachments/assets/037d622a-edf1-4ebf-8ac9-387dc15b7512)
+
+
+
 
 
 
